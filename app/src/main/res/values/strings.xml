@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Firebase Auth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome !</string>
+    <string name="authorization">You enter your phone number for pass from the authorization.</string>
+    <string name="phone_number">Enter your phone number</string>
+    <string name="sms_code">Enter sms code</string>
+    <string name="_00_45">00:45</string>
+    <string name="one_time_code_is_sent_to_n_99891_155">One-time code is sent to \n(+998 91) 155 - ** - **</string>
+    <string name="my_number">(+998 91) 155 26 24</string>
+    <string name="sms_">SMS code</string>
+</resources>

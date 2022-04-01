@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_auth.xml"
+    app:startDestination="@id/signUp">
+
+    <fragment
+        android:id="@+id/authorization"
+        android:name="com.fragment.Authorization"
+        android:label="fragment_authorization"
+        tools:layout="@layout/fragment_authorization" >
+        <action
+            android:id="@+id/action_authorization_to_registrated"
+            app:destination="@id/registrated" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrated"
+        android:name="com.fragment.Registrated"
+        android:label="fragment_registrated"
+        tools:layout="@layout/fragment_registrated" />
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.fragment.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_authorization"
+            app:destination="@id/authorization" />
+    </fragment>
+</navigation>
